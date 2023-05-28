@@ -1,0 +1,16 @@
+#Container-Golden {
+width: auto;
+height:90vh; 
+background-color: #FFBF71;
+}
+
+.Container-Name-GR {
+    font-size: 6vh;
+    line-height: 7vh;
+    margin-left: 7.5vw;
+    margin-top: 49vh;
+    position: absolute;
+    font-weight: bold;
+  }
+  
+

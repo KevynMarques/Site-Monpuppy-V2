@@ -1,0 +1,128 @@
+#Container-OthersRace h2 {
+    text-align: center;
+    margin-top: 60.25px;
+    font-size: 45.6px; 
+    line-height: 59.85px; 
+  }
+.Container-OthersRace-Geral {
+    width: 80vw;
+    height: 107vh;
+    display: flex;
+    margin-top: 82px;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+
+} 
+
+.Container-OthersRace-Geral p { 
+text-align: center;
+ margin-top: 90%;
+ font-size: 32px;
+ line-height: 37px;
+ font-weight: bold;
+}
+
+.Dog {
+    width: 22vw; 
+    height: 52vh;
+    border-radius: 4px;
+    }
+
+
+.Bulldog {
+background-color:#8BD7FF ;
+}
+.Rotw{
+    background-color:#B4B9FF ;
+}
+
+.Corso {
+    background-color:#DAAAFF ;
+}
+
+.Pug {
+    background-color:#88FFCF ;
+}
+
+.Pood {
+    background-color:#FFE0B7 ;
+}
+
+.Shitz {
+    background-color:#FFBBEF ;
+}
+
+.More { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.More button{ 
+  background-color: white;
+  border: solid 2px;
+  width: 320px;
+  height: 80px;
+  border-radius: 96px;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 85px;
+  margin-bottom: 239px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*---------------- MEDIAS --------------*/  
+
+@media (min-width: 1250px) and (max-width: 1680px) { 
+  .Container-OthersRace-Geral {
+    width: 80vw;
+    height: 106vh;
+    margin-top: 77.9px;
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  
+  .Dog {
+    width: 20.9vw;
+    height: 50vh;
+    border-radius: 4px;
+  }
+  
+  .More button {
+    width: 304px;
+    height: 76px;
+    font-size: 22.8px;
+  }
+  
+  .More button {
+    width: 192px;
+    height: 48px;
+    font-size: 14.4px;
+  }
+}
+
+      
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .Container-OthersRace-Geral {
+    width: 78vw;
+    height: 109vh;
+    margin-top: 70px;
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+
+  .Dog {
+    width: 19vw;
+    height: 53vh;
+  }
+
+  .More button {
+    width: 300px;
+    height: 72px;
+    font-size: 21.6px;
+    line-height: 26.1px;
+    margin-top: 77px;
+    margin-bottom: 219px;
+  }
+}

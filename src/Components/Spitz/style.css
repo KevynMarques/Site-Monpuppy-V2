@@ -1,0 +1,16 @@
+#Container-Spitz {
+  background-color: #FFC2C2;
+  width: auto;
+  height:90vh; 
+  }
+  
+  .Container-Name {
+    font-size: 6vh;
+    line-height: 7vh;
+    margin-left: 7.5vw;
+    margin-top: 49vh;
+    position: absolute;
+    font-weight: bold;
+  }
+  
+

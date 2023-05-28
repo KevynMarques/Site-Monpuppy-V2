@@ -1,0 +1,94 @@
+.vertical-carousel-container {
+  position: relative;
+  height: 95vh;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.253);
+}
+
+.vertical-carousel {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------------------------- Arros --------------------------*/
+
+.Container-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15.625vw;
+  height: 46.296vh;
+  position: absolute;
+  margin-top: 35vh;
+  margin-left: 43.23vw;
+}
+
+.scroll-button {
+  transform: translateY(-50%);
+  background-color: white;
+  color: #fff;
+  border: none;
+  width: 2.395vw;
+  height: 5vh;
+  font-size: 1.354vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: rgba(0, 0, 0, 0.507);
+  border-radius: 3vw;
+}
+
+.scroll-button:hover {
+  background-color: #999;
+}
+
+.scroll-up {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.scroll-down {
+  margin-top: 5vh;
+}
+
+.vertical-carousel::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.vertical-carousel {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.Container-dots {
+  margin-bottom: -4.629vh;
+  margin-top: 1.481vh;
+}
+
+.dots {
+  transform: translateY(-50%);
+  list-style: none;
+}
+
+.dot {
+  width: 0.104vw;
+  height: 1.852vh;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  border-radius: 0.325vw;
+  margin-bottom: 0.741vh;
+}
+
+.dot.active {
+  background-color: #404040;
+}
+

@@ -1,0 +1,92 @@
+
+#Container-Balls {
+    height: 306px;
+    max-width: 1920px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Container-Balls-BabyBlue {
+    height: 211px;
+    width: 221px;
+    margin-left: 480px; 
+    margin-top: -105px;
+    background-color: #86F6EB;
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.Container-Balls-Orange {
+    margin-top: -10px;
+    margin-left: 1752px;
+    width: 263px;
+    height: 263px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FFBD9B;
+} 
+
+#Container-Text {
+width: 1920px;
+height: 409px;
+position: relative;
+display: flex;
+}
+
+.Container-Text-BallBlue {
+    width: 410px;
+    height: 409px;
+    background-color: #B4B9FF;
+    border-radius: 50%;
+    margin-left: -205px;
+    position: absolute; 
+    
+}
+
+.Container-Text-Ast {
+width: 128px;
+height: 409px;
+margin-left: 321px;
+
+}
+
+.Container-Text-Description{ 
+ width: 993px;
+ height: 187px;
+ margin-bottom: 167px;
+ margin-left: 464px;
+ margin-top: 20px;
+ font-size: 48px;
+ list-style: 64px;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+color:  #404040;
+text-align: left;
+}
+
+.Container-Text-BallPurple {
+    width: 169px;
+    height: 169px;
+    background-color: #DAAAFF;
+    border-radius: 50%;
+    margin-top: 240px;
+    margin-left:1583px;;
+    position: absolute;
+}
+
+#Container-Tittle {
+margin-top: 471px;
+width: 960px;
+height: 223px;
+margin-right: 480px;
+}
+
+#Container-Tittle h2 {
+    font-size: 96px;
+    line-height: 96px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color:  #404040;
+
+}

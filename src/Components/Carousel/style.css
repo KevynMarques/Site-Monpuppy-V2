@@ -1,0 +1,45 @@
+.overlay-component {
+  z-index: 1;
+  position: absolute;
+}
+
+
+ 
+.carousel-container {
+  position: relative;
+}
+
+.my-custom-prev-arrow,
+.my-custom-next-arrow {
+  width: 2.9166666666666665vw;
+  height: 5.185185185185185vh;
+  position: absolute;
+  top: 69vh;
+  border-radius: 50px;
+  background-color: transparent;
+  background-color: white;
+  outline: none;
+  font-size: 1.25vw;
+  cursor: pointer;
+  z-index: 2;
+  transform: translateY(-50%);
+  border: none;
+}
+
+.my-custom-prev-arrow {
+  left: 77.29166666666667vw;
+  transform-origin: right;
+}
+
+.my-custom-next-arrow {
+  left: 88.79166666666667vw;
+  transform-origin: left;
+}
+
+.alice-carousel__dots {
+  position: absolute;
+  top: 65vh;
+  left: 81vw;
+  z-index: 2;
+}
+
