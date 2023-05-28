@@ -89,16 +89,12 @@ background-color:#8BD7FF ;
     border-radius: 4px;
   }
   
-  .More button {
-    width: 304px;
-    height: 76px;
-    font-size: 22.8px;
-  }
   
   .More button {
     width: 192px;
     height: 48px;
     font-size: 14.4px;
+    margin-bottom: 100px;
   }
 }
 

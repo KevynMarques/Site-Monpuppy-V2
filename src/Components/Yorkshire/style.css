@@ -1,17 +1,17 @@
 #Container-York {
     background-color: #FFBD9B;
     width: auto;
-    height:90vh; 
+    height: 90vh;
     }
     
     .Container-Name-York {
       font-size: 6vh;
       line-height: 7vh;
-      margin-left: 7.5vw;
-      margin-top: 49vh;
-      position: absolute;
       font-weight: bold;
+      position: relative;
+      padding-top: 51.80556vh;   
+      margin-left: 6.9vw;  
     }
     
   
-  
+    

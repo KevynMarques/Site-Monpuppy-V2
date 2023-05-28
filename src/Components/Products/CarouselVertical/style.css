@@ -79,7 +79,7 @@
 }
 
 .dot {
-  width: 0.104vw;
+  width: 2px;
   height: 1.852vh;
   background-color: #ccc;
   border-radius: 50%;
@@ -91,4 +91,3 @@
 .dot.active {
   background-color: #404040;
 }
-

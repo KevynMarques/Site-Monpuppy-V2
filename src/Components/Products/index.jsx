@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { useNavigate } from 'react-router-dom'
-import VerticalCarousel from '../CarouselVertical';
+import VerticalCarousel from './CarouselVertical';
 
 function Product () { 
 

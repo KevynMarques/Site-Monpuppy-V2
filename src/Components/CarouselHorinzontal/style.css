@@ -1,0 +1,85 @@
+.carousel-item-Horizontal {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  height: 95vh;
+}
+
+
+/*----------------- ARROWS-----------------------------*/
+
+.container-buttons-Horizontal {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-left: 77.29vw;
+  margin-top: 76vh;
+}
+
+.scroll-button-Horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.08vw;
+  height: 3.7vh;
+  font-size: 1.25vw;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+
+/*------------------- DOSTS--------------------------*/
+
+.horizontal-carousel-Horizontal {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.horizontal-carousel-Horizontal::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+
+
+
+.container-dots-Horizontal {
+  margin: 0 10px;
+}
+
+.dots-Horizontal {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dot-Horizontal {
+  width: 15px;
+  height: 3px;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot-Horizontal.active-Horizontal {
+  background-color: #333;
+}
+
+.horizontal-carousel-Horizontal {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+}
+
+.horizontal-carousel-Horizontal::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
