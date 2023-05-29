@@ -6,6 +6,9 @@
   margin-left: 7.34375vw;
   position: relative;
   padding-top: 1.5vh;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .Container-Carousel-Horizontal-Left button {

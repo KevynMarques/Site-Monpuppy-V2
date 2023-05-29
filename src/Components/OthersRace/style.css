@@ -1,38 +1,60 @@
 #Container-OthersRace h2 {
-    text-align: center;
-    margin-top: 60.25px;
-    font-size: 45.6px; 
-    line-height: 59.85px; 
-    font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  margin-top: 60.25px;
+  font-size: 2.375vw;
+  line-height: 5.5417vh;
+  font-family: 'Roboto Slab', sans-serif;
   font-style: normal;
   font-weight: bold;
-  }
+}
+
 .Container-OthersRace-Geral {
-    width: 80vw;
-    height: 107vh;
-    display: flex;
-    margin-top: 82px;
-    flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 100px;
+  width: 80vw;
+  height: 111vh;
+  display: flex;
+  margin-top: 4.2708vh; 
+  flex-wrap: wrap;
+  padding-left: 5.2083vw; 
+  padding-right: 5.2083vw; 
+}
 
-} 
-
-.Container-OthersRace-Geral p { 
-text-align: center;
- margin-top: 90%;
- font-size: 32px;
- line-height: 37px;
- font-family: 'Raleway', sans-serif;
- font-weight: normal;
- font-style: normal;
+.Container-OthersRace-Geral p {
+  text-align: center;
+  margin-top: 90%;
+  font-size: 1.6667vw;
+  line-height: 3.4259vh; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .Dog {
-    width: 22vw; 
-    height: 52vh;
-    border-radius: 4px;
-    }
+  width: 22vw;
+  height: 54vh;
+  border-radius: 4px;
+}
+
+.More {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.More button {
+  background-color: white;
+  border: solid 2px;
+  width: 16.6667vw; 
+  height: 7.4074vh;
+  border-radius: 96px;
+  font-size: 1.25vw; 
+  line-height: 2.6852vh; 
+  margin-top: 7.8704vh;
+  margin-bottom: 22.1296vh; 
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 .Bulldog {
@@ -58,74 +80,7 @@ background-color:#8BD7FF ;
     background-color:#FFBBEF ;
 }
 
-.More { 
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.More button{ 
-  background-color: white;
-  border: solid 2px;
-  width: 320px;
-  height: 80px;
-  border-radius: 96px;
-  font-size: 24px;
-  line-height: 29px;
-  margin-top: 85px;
-  margin-bottom: 239px;
-  cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-style: normal;
-}
 
-/*---------------- MEDIAS --------------*/  
 
-@media (min-width: 1250px) and (max-width: 1680px) { 
-  .Container-OthersRace-Geral {
-    width: 80vw;
-    height: 106vh;
-    margin-top: 77.9px;
-    padding-left: 95px;
-    padding-right: 95px;
-  }
-  
-  .Dog {
-    width: 20.9vw;
-    height: 50vh;
-    border-radius: 4px;
-  }
-  
-  
-  .More button {
-    width: 192px;
-    height: 48px;
-    font-size: 14.4px;
-    margin-bottom: 100px;
-  }
-}
 
       
-@media (min-width: 1024px) and (max-width: 1250px) {
-  .Container-OthersRace-Geral {
-    width: 78vw;
-    height: 109vh;
-    margin-top: 70px;
-    padding-left: 96px;
-    padding-right: 96px;
-  }
-
-  .Dog {
-    width: 19vw;
-    height: 53vh;
-  }
-
-  .More button {
-    width: 300px;
-    height: 72px;
-    font-size: 21.6px;
-    line-height: 26.1px;
-    margin-top: 77px;
-    margin-bottom: 219px;
-  }
-}
