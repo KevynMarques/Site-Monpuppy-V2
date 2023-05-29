@@ -1,14 +1,16 @@
 #Container-Pitbull {
   width: auto;
   height: 90vh;
-  background-color: #1ef530;
+  background-color:#F2F2F2;
 }
 
 .Container-Name-APBT {
   font-size: 6vh;
   line-height: 7vh;
-  font-weight: bold;
   position: relative;
   padding-top: 51.80556vh;   
   margin-left: 6.9vw;   
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }

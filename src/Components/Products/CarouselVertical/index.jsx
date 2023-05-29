@@ -4,31 +4,35 @@ import './style.css';
 const VerticalCarousel = () => {
   const carouselRef = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [scrollOffset, setScrollOffset] = useState(0);
 
   const scrollUp = () => {
-    carouselRef.current.scrollTop -= 95 * window.innerHeight / 100;
+    carouselRef.current.scrollTop -= 0.95 * window.innerHeight;
   };
 
   const scrollDown = () => {
-    carouselRef.current.scrollTop += 95 * window.innerHeight / 100;
+    carouselRef.current.scrollTop += 0.95 * window.innerHeight;
   };
 
   const handleDotClick = (index) => {
     setCurrentSlide(index);
-    carouselRef.current.scrollTop = index * (95 * window.innerHeight / 100);
+    carouselRef.current.scrollTop = index * (0.95 * window.innerHeight);
   };
 
   useEffect(() => {
     const handleScroll = () => {
       const offset = carouselRef.current.scrollTop;
-      const index = Math.round(offset / (95 * window.innerHeight / 100));
+      const index = Math.round(offset / (0.95 * window.innerHeight));
       setCurrentSlide(index);
     };
 
-    carouselRef.current.addEventListener('scroll', handleScroll);
+    if (carouselRef.current) {
+      carouselRef.current.addEventListener('scroll', handleScroll);
+    }
+
     return () => {
-      carouselRef.current.removeEventListener('scroll', handleScroll);
+      if (carouselRef.current) {
+        carouselRef.current.removeEventListener('scroll', handleScroll);
+      }
     };
   }, []);
 

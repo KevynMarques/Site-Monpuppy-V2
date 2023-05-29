@@ -1,10 +1,11 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './style.css';
-import Pitbull from "../Pitbull"
-import Golden from "../Golden/index"
-import Lulu from "../Lulu/index"
-import Yorkshire from "../Yorkshire/index"
-import PA from "../PastorAlemao"
+import Pitbull from "../Pitbull/index";
+import Golden from "../Golden/index";
+import Lulu from "../Spitz/index";
+import Yorkshire from "../Yorkshire/index";
+import PA from "../PastorAlemao/index";
+import ButtonFixed from '../ButtonFixed';
 
 const HorizontalCarousel = () => {
   const carouselRef = useRef(null);
@@ -41,12 +42,17 @@ const HorizontalCarousel = () => {
       setCurrentSlide(index);
     };
 
-    carouselRef.current.addEventListener('scroll', handleScroll);
+    if (carouselRef.current) {
+      carouselRef.current.addEventListener('scroll', handleScroll);
+    }
+
     return () => {
-      carouselRef.current.removeEventListener('scroll', handleScroll);
+      if (carouselRef.current) {
+        carouselRef.current.removeEventListener('scroll', handleScroll);
+      }
     };
   }, []);
-
+  
   const slides = [<Pitbull />, <Golden />, <Lulu />, <Yorkshire />, <PA />];
 
   const renderDots = () => {
