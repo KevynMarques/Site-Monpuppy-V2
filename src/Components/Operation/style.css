@@ -1,92 +1,140 @@
-
 #Container-Balls {
-    height: 306px;
-    max-width: 1920px;
+    height: 31.25vh;
+    max-width: 99vw;
     overflow: hidden;
     position: relative;
 }
 
 .Container-Balls-BabyBlue {
-    height: 211px;
-    width: 221px;
-    margin-left: 480px; 
-    margin-top: -105px;
+    height: 18.95vh;
+    width: 11.51vw;
+    margin-left: 25vw;
+    margin-top: -9.03vh;
     background-color: #86F6EB;
     position: absolute;
     border-radius: 50%;
-
 }
 
 .Container-Balls-Orange {
-    margin-top: -10px;
-    margin-left: 1752px;
-    width: 263px;
-    height: 263px;
+    margin-top: -0.52vh;
+    margin-left: 91.25vw;
+    width: 13.7vw;
+    height: 13.7vw;
     position: absolute;
     border-radius: 50%;
     background-color: #FFBD9B;
-} 
-
-#Container-Text {
-width: 1920px;
-height: 409px;
-position: relative;
-display: flex;
 }
 
-.Container-Text-BallBlue {
-    width: 410px;
-    height: 409px;
-    background-color: #B4B9FF;
-    border-radius: 50%;
-    margin-left: -205px;
-    position: absolute; 
+#Container-Text {
+    height: 37.92vh;
+    position: relative;
+    display: flex;
     
 }
 
-.Container-Text-Ast {
-width: 128px;
-height: 409px;
-margin-left: 321px;
-
+.Container-Text-BallBlue {
+    width: 20vw;
+    height: 37.92vh;
+    background-color: #B4B9FF;
+    border-radius: 50%;
+    margin-left: -10.67vw;
+    position: absolute;
 }
 
-.Container-Text-Description{ 
- width: 993px;
- height: 187px;
- margin-bottom: 167px;
- margin-left: 464px;
- margin-top: 20px;
- font-size: 48px;
- list-style: 64px;
-font-family: Arial, Helvetica, sans-serif;
-position: absolute;
-color:  #404040;
-text-align: left;
+.Container-Text-Ast {
+    width: 6.67vw;
+    height: 37.92vh;
+    margin-left: 16.77vw;
+}
+
+.Container-Text-Description {
+    width: 50vw;
+    height: 17.31vh;
+    margin-bottom: 15.43vh;
+    margin-left: 24.17vw;
+    margin-top: 1.85vh;
+    font-size: 2.5vw;
+    list-style: 3.33vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: #404040;
+    text-align: left;
 }
 
 .Container-Text-BallPurple {
-    width: 169px;
-    height: 169px;
+    width: 8.8vw;
+    height: 8.8vw;
     background-color: #DAAAFF;
     border-radius: 50%;
-    margin-top: 240px;
-    margin-left:1583px;;
+    margin-top: 22.22vh;
+    margin-left: 83.02vw;
     position: absolute;
 }
 
 #Container-Tittle {
-margin-top: 471px;
-width: 960px;
-height: 223px;
-margin-right: 480px;
+    margin-top: 43.75vh;
+    height: 20.66vh;
+    width: 100%;
+    position: absolute;
 }
+ 
+/*------------------------------  */
+
+
 
 #Container-Tittle h2 {
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 5vw;
+    line-height: 5vw;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    color:  #404040;
+    color: #404040;
+    width: 50vw;
+}
+
+.Container-Topics {
+    width: 73vw;
+    height: 14.930555555555555vh;
+    margin-top: 23.958333333333332vh;
+    display: flex;
+}
+
+.Container-Topic-Generic {
+    width: 43.75vw;
+}
+
+.Container-Topic-Generic p {
+    text-align: left;
+    font-size: 1.875vw;
+    line-height: 2.8125vw;
+    width: 53.28125vw;
+    margin-left: -11vw;
+}
+
+.Container-Topic-Namber {
+    text-align: center;
+    font-size: 3.75vw;
+    line-height: 5vw;
+    width: 0vw;
+    font-weight: bold;
+}
+
+.Container-Topic-Generic :last-child {
+    margin-right: auto;
+}
+
+.Container-Last-Text {
+    font-family: normal;
+}
+
+.Container-Topic-Generic.Lest {
+    width: 30vw;
+    height: 33.75vh;
+    margin-top: 31.25vh;
+}
+
+.Container-Topic-Generic.Lest p {
+    font-size: 3.75vw;
+    line-height: 5.520833333333334vw;
+    font-family: Arial, Helvetica, sans-serif;
 
 }

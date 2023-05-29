@@ -3,6 +3,9 @@
     margin-top: 60.25px;
     font-size: 45.6px; 
     line-height: 59.85px; 
+    font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: bold;
   }
 .Container-OthersRace-Geral {
     width: 80vw;
@@ -20,7 +23,9 @@ text-align: center;
  margin-top: 90%;
  font-size: 32px;
  line-height: 37px;
- font-weight: bold;
+ font-family: 'Raleway', sans-serif;
+ font-weight: normal;
+ font-style: normal;
 }
 
 .Dog {
@@ -68,8 +73,10 @@ background-color:#8BD7FF ;
   line-height: 29px;
   margin-top: 85px;
   margin-bottom: 239px;
-  font-weight: bold;
   cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
 /*---------------- MEDIAS --------------*/  
